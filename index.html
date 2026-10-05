@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#060b18">
+  <meta name="description" content="Mohan Babu University - Data Science Laboratory (22DS102006). Practical experiments, interactive Python runner, theory modules, videos and source code.">
+  <title>Mohan Babu University &middot; Data Science Laboratory</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/img/mbu-logo-with-tagline.png">
+  
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Modern Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- Top Persistent Navigation Bar -->
+    <header class="site-header" role="banner">
+      <a class="brand-badge" href="#/" title="Return to Main Lab Home">
+        <div class="brand-badge__logo-box">
+          <img class="brand-badge__logo" src="assets/img/mbu-logo-with-tagline.png" alt="Mohan Babu University">
+        </div>
+        <div class="brand-badge__text">
+          <span class="brand-badge__title">Mohan Babu University</span>
+          <span class="brand-badge__subtitle">Data Science Laboratory</span>
+        </div>
+      </a>
+
+      <!-- Main Navigation -->
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a class="nav-item active" href="#/">
+          <span>🧪 Experiments</span>
+        </a>
+        <a class="nav-item" href="#/modules">
+          <span>📚 Course Modules (1-5)</span>
+        </a>
+        <a class="nav-item" href="#/codelab">
+          <span>💻 Code Lab</span>
+        </a>
+      </nav>
+
+      <!-- Subject Code & Meta -->
+      <div class="header-meta">
+        <span class="code-chip">Subject: 22DS102006</span>
+      </div>
+    </header>
+
+    <!-- Main Dynamic Application View -->
+    <main id="mainAppView" role="main" aria-live="polite">
+      <!-- Views are dynamically rendered here by assets/js/app.js according to hash routes -->
+    </main>
+
+    <!-- Persistent Footer -->
+    <footer class="site-footer" role="contentinfo">
+      <p class="footer-brand">Mohan Babu University &middot; Data Science Laboratory</p>
+      <p>Subject Code: <strong>22DS102006</strong> &middot; Department of Computer Science &amp; Engineering (Data Science)</p>
+      <p>Prepared &amp; Developed by <strong>K ARJUN REDDY</strong> (Roll No: <strong>24102A030073</strong>), Section <strong>CSE-DS-2</strong></p>
+      <p class="footer-copy">&copy; 2026 Mohan Babu University. Academic Record &amp; Interactive Digital Portal.</p>
+    </footer>
+  </div>
+
+  <!-- Central Data Store (Student details, experiments, dynamic sections, 5 modules) -->
+  <script src="assets/js/data.js"></script>
+  
+  <!-- In-Browser Python Runner (Pyodide WebAssembly with Simulation Fallback) -->
+  <script src="assets/js/runner.js"></script>
+  
+  <!-- Router, UI Views & Hover Preview Controllers -->
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>

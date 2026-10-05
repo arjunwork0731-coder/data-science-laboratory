@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2b48" />
+      <stop offset="50%" stop-color="#123b63" />
+      <stop offset="100%" stop-color="#08182b" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd200" />
+      <stop offset="100%" stop-color="#f7971e" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="28" fill="url(#bgGrad)" stroke="rgba(0,210,255,0.4)" stroke-width="2"/>
+  <circle cx="100" cy="75" r="38" fill="rgba(255,255,255,0.08)" stroke="url(#cyanGrad)" stroke-width="2.5" />
+  <path d="M 50 170 C 50 128, 70 118, 100 118 C 130 118, 150 128, 150 170 Z" fill="rgba(255,255,255,0.12)" stroke="url(#cyanGrad)" stroke-width="2" />
+  <text x="100" y="85" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#ffffff" letter-spacing="1.5">AR</text>
+  <circle cx="100" cy="180" r="4" fill="url(#goldGrad)" />
+</svg>
