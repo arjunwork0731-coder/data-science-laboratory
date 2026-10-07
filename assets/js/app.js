@@ -261,7 +261,7 @@
   function renderPage1(root) {
     const studentPhotoHtml = student.photo
       ? `<img class="id-card__photo" src="${escapeHtml(student.photo)}" alt="Student Photo">`
-      : `<img class="id-card__photo" src="assets/img/student-avatar.svg" alt="Student Avatar">`;
+      : `<img class="id-card__photo" src="assets/img/student-photo.jpg" alt="Student Avatar">`;
 
     // Autocomplete list items
     const experimentItems = experiments.map(exp => `
